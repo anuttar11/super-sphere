@@ -1,10 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="SuperSphere is a movie streaming website with hundreds of movies beign add every month." />
     <title>Home Page-SuperSphere</title>
 </head>
+<style>
+    #scro::-webkit-scrollbar {
+        height: 0;
+    }
+</style>
+
 <body id="myBody2">
     <link rel="stylesheet" href="pro.css">
     <script src="pro.js"></script>
@@ -12,47 +20,83 @@
     <div id="Div4">
         <p id="sitename"><b>SuperSphere</b></p>
         <div id="divlist">
-        <ul id="list1home">
-            <li><a id="home" href="prohome.html">Home</a></li>
-            <li><a href="promovies.html">Movies</a>
-            </li>
-            <li><a href="#">Amv</a>
-                <ul id="list2home">
-                    <li><a href="proamv.html#divamvanime">Anime</a></li><br>
-                    <li><a href="proamv.html#divamvmovie">Superheroes</a></li>
-                </ul></li>
-            <li><a href="prosong.html">Songs</a></li>
-        </ul>
+            <ul id="list1home">
+                <li><a id="home" href="prohome.html">Home</a></li>
+                <li><a href="promovies.html">Movies</a>
+                </li>
+                <li>
+                    <details>
+                        <summary>AMV</summary>
+                        <ul id="list2home">
+                            <li>
+                                <a href="proamv.html#divamvanime">Anime</a>
+                            </li>
+                            <li>
+                                <a href="proamv.html#divamvmovie">Superheroes</a>
+                            </li>
+                        </ul>
+                    </details>
+                </li>
+                <li><a href="prosong.html">Songs</a></li>
+            </ul>
         </div>
-        <p style="color: black; float: right; font-size:25px; margin-right: 10px;"><a id="logout"style="color:black;font-size:20px;margin-right:10px;" onmouseover="underline()" onmouseout="removeit()" href="1SuperSphere.html">Log out</a>&nbsp;&nbsp;&nbsp;Hello...<b><span style="color: aqua;" id="result"></span></b></p>
-        <script>document.getElementById("result").innerHTML=localStorage.getItem("textvalue");
-        </script></div>
-                <div id="welcome"><marquee scrollamount="20"><p>Welcome to the world of superheroes and anime...</p></marquee></div>
-                <hr>
-                <div id=Div5>
-                    <div><img style="display: inline;float: left;" id="levi" src="levi.png" height="300px" weight="300px"></div>
-                    <span style="color: aqua;"><strong> Movies</strong></span>
-                    <br><div id="scro">
-                    <a href="movie.html#ironman2"><img id="pho1" src="ironman2.jpg"></a>
-                    <a href="movie.html#cap3"><img id="pho1" src="civil.jpg"></a>
-                    <a href="movie.html#darkknight"><img id="pho1" src="dark knight.jpg" ></a>
-                    <a href="movie.html#narutoroad"><img id="pho1" src="narutoroad.jpg"></a>
-                    <a href="movie.html#spiderhome"><img id="pho1" src="Spiderhome.jpg"></a>
-                    <a href="movie.html#incredibles"><img id="pho1" src="incredibles2.jpg"></a>
-                    <a href="movie.html#amazingspider2"><img id="pho1" src="amazingspider2.jpg" alt=""></a>
-                    <a href="movie.html#spiderverse"><img id="pho1" src="spiderverse.jpg" alt=""></a>
-                </div></div><hr>
-            <div><img style="display: inline-block;float: left;" src="source.gif"> <h1 style="color:aqua;font-size: 80px;">Know more about your favourite character...</h1>></div>
-        <div id="welcome"><marquee scrollamount="20"><p>Place where you will be able to see the clash of supernaturals...</p></marquee></div>
-        <div id="vs"><img width="600px" height="auto" src="heroes.png" >
+        <p style="float: right; font-size:25px; margin-right: 10px;">
+            <a id="logout" style="font-size:20px;margin-right:10px;" onmouseover="underline()" onmouseout="removeit()"
+                href="1SuperSphere.html">
+                Log out
+            </a>
+            <b><span style="color: #fff;" id="result"></span></b>
+        </p>
+    </div>
+    <div id="welcome">
+        <marquee scrollamount="20">
+            <p>Welcome to the world of superheroes and anime...</p>
+        </marquee>
+    </div>
+    <hr>
+    <div id=Div5>
+        <div><img style="display: inline;float: left;" id="levi" src="levi.png" height="300px" weight="300px"></div>
+        <span style="color: aqua;"><strong> Movies</strong></span>
+        <br>
+        <div id="scro">
+            <a href="movie.html#ironman2"><img id="pho1" src="ironman2.jpg"></a>
+            <a href="movie.html#cap3"><img id="pho1" src="civil.jpg"></a>
+            <a href="movie.html#darkknight"><img id="pho1" src="dark knight.jpg"></a>
+            <a href="movie.html#narutoroad"><img id="pho1" src="narutoroad.jpg"></a>
+            <a href="movie.html#spiderhome"><img id="pho1" src="Spiderhome.jpg"></a>
+            <a href="movie.html#incredibles"><img id="pho1" src="incredibles2.jpg"></a>
+            <a href="movie.html#amazingspider2"><img id="pho1" src="amazingspider2.jpg" alt=""></a>
+            <a href="movie.html#spiderverse"><img id="pho1" src="spiderverse.jpg" alt=""></a>
+        </div>
+    </div>
+    <hr>
+    <div><img style="float: left;" src="source.gif">
+        <h1 style="color:aqua;font-size: 80px;">Know more about your favourite character...</h1>>
+    </div>
+    <div id="welcome">
+        <marquee scrollamount="20">
+            <p>Place where you will be able to see the clash of supernaturals...</p>
+        </marquee>
+    </div>
+    <div id="vs"><img width="600px" height="auto" src="heroes.png">
         <img width="70px" height="70px" id="vss" src="vs.png">
-        <img width="600px" height="auto" src="villans.png"></div>
-        <div id="Div3">
-            <div id="last"><span id="sp">ABOUT</span><span id="sp">HELP</span><span id="sp">PRESS</span><span id="sp">API</span><span id="sp">JOBS</span><span id="sp">PRIVACY</span><span id="sp">TERMS</span><span id="sp">LOCATIONS</span><span id="sp">ENGLISH</span>
-                <span id="sp"><img src="unnamed.png"></span><span id="sp"><img src="instagram-1.png" alt=""></span></div>
-            <div id="copy"></div><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Copyright.svg/170px-Copyright.svg.png" alt="">
-            <span style="color: aqua;font-size:20px;">2020 SUPERSPHERE</span>
-            <span style="color: aqua;">|All right reserved</span></div>
+        <img width="600px" height="auto" src="villans.png">
+    </div>
+    <div id="Div3">
+        <div id="last"><span id="sp">ABOUT</span><span id="sp">HELP</span><span id="sp">PRESS</span><span
+                id="sp">API</span><span id="sp">JOBS</span><span id="sp">PRIVACY</span><span id="sp">TERMS</span><span
+                id="sp">LOCATIONS</span><span id="sp">ENGLISH</span>
+            <span id="sp"><img src="unnamed.png"></span><span id="sp"><img src="instagram-1.png" alt=""></span>
         </div>
+        <div id="copy"></div><img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Copyright.svg/170px-Copyright.svg.png"
+            alt="">
+        <span style="color: aqua;font-size:20px;">2020 SUPERSPHERE</span>
+        <span style="color: aqua;">|All right reserved</span>
+    </div>
+    </div>
 </body>
+<script>document.getElementById("result").innerHTML = localStorage.getItem("textvalue");
+</script>
+
 </html>
