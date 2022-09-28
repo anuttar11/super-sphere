@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Images-SuperSphere</title>
+    <style>
+        body{background-color: #040013;}
+    </style>
+    <link rel="stylesheet" href="pro.css">
+    <script src="pro.js"></script>
+</head>
+<body><a id="top" href="proimages.html"><img src="up-icon-png.png" height="40px" weight="40px"></a>
+    <div id="Divimg">
+        <p id="sitename"><b>SuperSphere</b></p>
+        <div id="divlist">
+        <ul id="list1img">
+            <li><a href="prohome.html">Home</a></li>
+            <li><a href="promovies.html">Movies</a>
+            </li>
+            <li><a href="#">Amv</a>
+                <ul id="list2img">
+                    <li><a href="proamv.html#divamvanime">Anime</a></li><br>
+                    <li><a href="proamv.html#divamvmovie">Superheroes</a></li>
+                </ul></li>
+            <li><a href="prosong.html">Songs</a></li>
+            <li><a id="imgimg" href="proimages.html">Images</a></li>
+        </ul></div>
+        <p style="color: black; float: right; font-size:25px; margin-right: 10px;"><a id="logout"style="color:black;font-size:20px;margin-right:10px;" onmouseover="underline()" onmouseout="removeit()" href="1SuperSphere.html">Log out</a>&nbsp;&nbsp;&nbsp;Hello...<b><span style="color: aqua;" id="result"></span></b></p>
+        <script>document.getElementById("result").innerHTML=localStorage.getItem("textvalue");
+        </script></div>
+        <br><br>
+</body>
+</html>

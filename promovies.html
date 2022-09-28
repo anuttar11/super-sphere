@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movies-SuperSphere</title>
+     <style>
+     body
+     {background-color: rgb(4, 0, 19);}
+    a img{height: 180px;
+    width: 280px;
+margin: 10px 30px;
+border: 6px groove aqua;}
+a img:hover{ height: 200px;
+width: 300px;
+filter: brightness(1.3) ;
+transition-duration:0.5s;}
+    </style>
+    <link rel="stylesheet" href="pro.css">
+    <script src="pro.js"></script>
+</head>
+<body><button id="top" onclick="gototop()"><img src="up-icon-png.png" height="40px" weight="40px"></button>
+    <div id="Divmov">
+        <p id="sitename"><b>SuperSphere</b></p>
+        <div id="divlist">
+        <ul id="list1mov">
+            <li><a href="prohome.html">Home</a></li>
+            <li><a id="movies" href="promovies.html">Movies</a>
+            </li>
+            <li><a href="#">Amv</a>
+                <ul id="list2mov">
+                    <li><a href="proamv.html#divamvanime">Anime</a></li><br>
+                    <li><a href="proamv.html#divamvmovie">Superheroes</a></li>
+                </ul></li>
+            <li><a href="prosong.html">Songs</a></li>
+            <li><input type="text" id="abc" placeholder="search" onkeyup="searchmovie()"></li>
+        </ul></div>
+       <div></div> <p style="color: black; float: right; font-size:25px; margin-right: 10px;"><a id="logout"style="color:black;font-size:20px;margin-right:10px;" onmouseover="underline()" onmouseout="removeit()" href="1SuperSphere.html">Log out</a>&nbsp;&nbsp;&nbsp;Hello...<b><span style="color: aqua;" id="result"></span></b></p>
+        <script>document.getElementById("result").innerHTML=localStorage.getItem("textvalue");
+        </script> </div> </div>
+                <br><br>
+        <ul id="movieul">
+        <li> <a href="movie.html#ironman1"><img src="Iron Man.jpg"></a><p>ironman</p></li>
+            <li> <a href="movie.html#cap1"><img src="imgonline-com-ua-resize-zhJVVX5OTNahRC.jpg"></a><p>captain america the first avenger</p></li>
+            <li> <a href="movie.html#thor1"><img src="imgonline-com-ua-resize-lcji5rVm0NleRm.jpg"></a><p>thor</p></li>
+            <li> <a href="movie.html#darkknight"><img src="dark knight.jpg"></a><p>the dark knight rises</p></li>
+        <li> <a href="movie.html#manofsteel"><img src="imgonline-com-ua-resize-JoJAxjixN0G51E7B.jpg"></a><p>man  of steel</p></li>
+            <li> <a href="movie.html#xmenlaststand"><img src="imgonline-com-ua-resize-fVcY7hanfXVlhEb.jpg"></a><p>xmen the last stand</p></li>
+            <li> <a href="movie.html#xmendark"><img src="imgonline-com-ua-resize-ORQ2C6WI0jH.jpg"></a><p>xmen the dark phoenix</p></li>
+            <li> <a href="movie.html#avenger1"><img src="imgonline-com-ua-resize-E6768pz9bCTBD.jpg"></a><p>the avengers</p></li>
+        <li> <a href="movie.html#spiderhome"><img src="Spiderhome.jpg"></a><p>spiderman homecoming</p></li>
+            <li> <a href="movie.html#blackpanther"><img src="black.jpg"></a><p> balck panther</p></li>
+            <li> <a href="movie.html#captainmarvel"><img src="Star.jpeg"></a><p>captain marvel</p></li>
+            <li> <a href="movie.html#spider1"><img src="imgonline-com-ua-resize-JUeANKygNBxuHVi.jpg"></a><p>spiderman</p></li>
+        <li> <a href="movie.html#amazingspider1"><img src="imgonline-com-ua-resize-3xdXSpEyGGtqv.jpg"></a><p>amazing spiderman 1</p></li>
+            <li> <a href="movie.html#doctorstrange"><img src="imgonline-com-ua-resize-rZvWXxmIlysi.jpg"></a><p>doctor strange</p></li>
+            <li> <a href="movie.html#krrish1"><img src="imgonline-com-ua-resize-Daf9JlbekbAaX.jpg"></a><p>krrish</p></li>
+            <li> <a href="movie.html#xmenday"><img src="imgonline-com-ua-resize-h1OU1OpzggJtneG.jpg"></a><p>xmen days of future past</p></li>
+        <li> <a href="movie.html#narutoroad"><img src="narutoroad.jpg"></a><p>naruto road to ninja</p></li>
+            <li> <a href="movie.html#logan"><img src="imgonline-com-ua-resize-svyCs1LyYG.jpg"></a><p>logan</p></li>
+            <li> <a href="movie.html#suicide"><img src="imgonline-com-ua-resize-lTQMgFI6pvxwf5q.jpg"></a><p>suicide squade</p></li>
+            <li> <a href="movie.html#thewolv"><img src="imgonline-com-ua-resize-5kVZi0OpWcoFW.jpg"></a><p>the wolverine</p></li>
+        <li> <a href="movie.html#cap2"><img src="imgonline-com-ua-resize-ypdBXceWKZN.jpg"></a><p>captain america the winter soldier</p></li>
+            <li> <a href="movie.html#avenger4"><img src="imgonline-com-ua-resize-LpuGrbKJSWGBXmG.jpg"></a><p>avengers endgame</p></li>
+            <li> <a href="movie.html#x2"><img src="imgonline-com-ua-resize-GwUxuGer2Tq.jpg"></a><p>xmen 2</p></li>
+            <li> <a href="movie.html#ironman2"><img src="ironman2.jpg"></a><p>ironman 2</p></li>
+        <li> <a href="movie.html#spiderfar"><img src="imgonline-com-ua-resize-2CVPyrl9Nchsj (1).jpg"></a><p>spiderman far from home</p></li>
+            <li> <a href="movie.html#batmanvssuperman"><img src="batman-v-superman.jpg"></a><p>batman vs superman</p></li>
+            <li> <a href="movie.html#incredibles2"><img src="incredibles2.jpg"></a><p>incredibles 2</p></li>
+            <li> <a href="movie.html#herorising"><img src="imgonline-com-ua-resize-WTtxGV5whlDDB5xG.jpg"></a><p>my hero academia hero rising</p></li>
+        <li> <a href="movie.html#spider2"><img src="imgonline-com-ua-resize-IVT88kedeJVkdC6.jpg"></a><p>spiderman 2</p></li>
+            <li> <a href="movie.html#shazam"><img src="imgonline-com-ua-resize-034N9SMrZE.jpg"></a><p>shazam</p></li>
+            <li> <a href="movie.html#wonderwoman1"><img src="imgonline-com-ua-resize-17bbJrG3Q7CSlrb.jpg"></a><p>wonder women</p></li>
+            <li> <a href="movie.html#avenger2"><img src="imgonline-com-ua-resize-AAmEnztIK22rGx3.jpg"></a><p>avengers age of ultron</p></li>
+        <li> <a href="movie.html#xmen1"><img src="imgonline-com-ua-resize-s0NHhrRHFUd4L.jpg"></a><p>xmen</p></li>
+            <li> <a href="movie.html#narutolast"><img src="last.jpg"></a><p>naruto the last</p></li>
+            <li> <a href="movie.html#narutolosttower"><img src="image1.jpg"></a><p>naruto the lost tower</p></li>
+            <li> <a href="movie.html#bloodprison"><img src="319383.jpg"></a><p>naruto blood prison</p></li>
+        <li> <a href="movie.html#spiderverse"><img src="spiderverse.jpg"></a><p>spiderman into the spiderverse</p></li>
+            <li> <a href="movie.html#incredibles1"><img src="incredibles.jpg"></a><p>incredibles</p></li>
+            <li> <a href="movie.html#blackwidow"><img src="imgonline-com-ua-resize-2P532eIh2VaFJUv.jpg"></a><p>blackwidow</p></li>
+            <li> <a href="movie.html#fan41"><img src="fantastic.jpg"></a><p>fantastic four 1</p></li>
+        <li> <a href="movie.html#ironman3"><img src="imgonline-com-ua-resize-VLCyv9Dn9KhvF08y.jpg"></a><p>ironman 3</p></li>
+            <li> <a href="movie.html#spider3"><img src="imgonline-com-ua-resize-A2VcjiCyhov.jpg"></a><p>spiderman 3</p></li>
+            <li> <a href="movie.html#fan42"><img src="fan42.jpg"></a><p>fantastic four 2</p></li>
+            <li> <a href="movie.html#antman1"><img src="antman.png"></a><p>antman</p></li>
+        <li> <a href="movie.html#birdsofprey"><img src="imgonline-com-ua-resize-E3UbGekPFTHaGz.jpg"></a><p>birds of prey</p></li>
+            <li> <a href="movie.html#darkknightr"><img src="imgonline-com-ua-resize-69ycttFaD1Z.jpg"></a><p>the dark knightrises</p></li>
+            <li> <a href="movie.html#guardianog2"><img src="imgonline-com-ua-resize-Sg5iRz7gUe.jpg"></a><p>guardian of the galaxy 2</p></li>
+            <li> <a href="movie.html#cap3"><img src="Civil.jpg"></a><p>civilwar</p></li>
+        <li> <a href="movie.html#krrish3"><img src="imgonline-com-ua-resize-4FwayLOGRK.jpg"></a><p>krrish 3</p></li>
+            <li> <a href="movie.html#avenger3"><img src="imgonline-com-ua-resize-TTOelaclrUyAN (2).jpg"></a><p>avenger infinity war</p></li>
+            <li> <a href="movie.html#guardianog1"><img src="imgonline-com-ua-resize-1YJlobPyj1.jpg"></a><p>guardian of the galaxy</p></li>
+            <li> <a href="movie.html#aquaman"><img src="Aqua man.jpg"></a><p>aqua man</p></li>
+        <li> <a href="movie.html#thor3"><img src="imgonline-com-ua-resize-fpjBek4Jfqta4fE6.jpg"></a><p>thor ragnarock</p></li>
+            <li> <a href="movie.html#deadpool1"><img src="1326927-b.jpg"></a><p>deadpool</p></li>
+            <li> <a href="movie.html#antman2"><img src="imgonline-com-ua-resize-cr5WPbpTORxhlg.jpg"></a><p>antman and the wasp</p></li>
+            <li> <a href="movie.html#mhatwoheroes"><img src="51pgd6VkQjL._AC_.jpg"></a><p>my hero academia two heroes</p></li>
+        <li> <a href="movie.html#hulk"><img src="imgonline-com-ua-resize-lT7CxaQpovEN1.jpg"></a><p>hulk</p></li>
+            <li> <a href="movie.html#amazingspider2"><img src="amazingspider2.jpg"></a><p>amazing spiderman 2</p></li>
+            <li> <a href="movie.html#deadpool2"><img src="deadpool2.jpg"></a><p>deadpool 2</p></li>
+            <li> <a href="movie.html#thor2"><img src="thor.jpg"></a><p>thor the dark world</p></li>
+        </ul>
+</body>
+</html>

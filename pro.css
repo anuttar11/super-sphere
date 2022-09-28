@@ -1,0 +1,344 @@
+body{margin: 0px;}
+
+#myBody{
+background-image: url('aqua-azure-iron-man-wallpaper.jpg');
+position: relative;
+background-position: fixed;
+background-repeat: no-repeat;
+background-size: cover;}
+
+#top{
+    position: fixed;
+bottom: 20px;
+right: 30px;
+background:none;
+border:none;
+}
+
+#Div1{
+    height: 80px;
+    width: 100%;}
+
+#Div1 p{
+    display: inline;
+    font-size: 50px;
+    color: orange;
+    margin-left: 100px;}
+
+#myBtn{
+    background-color: gray;;
+    position: absolute;
+    margin-left: 530px;
+    margin-top: 30px;
+    font-size:25px;
+    border-radius: 3px;}
+    
+#myForm1{font-size: 25px;
+    display:none;
+position:absolute;
+background-image:url("3653677-dragon ball z kakarot.jpeg");
+background-repeat: no-repeat;
+background-size: cover;
+margin-left: 1000px;
+margin-top: -30px;
+height:200px;}
+
+#myForm2,#myForm1 input{font-size:20px;}
+
+#myForm2 {font-size: 20px;
+    padding-right: 20px;
+    padding-left: 50px;
+padding-bottom: 20px;}
+
+#Div2{position: relative;
+    background:transparent;
+    width:400px;
+    margin-left: 100px;}
+#Div2 table{color: aliceblue;}
+
+#Div2 h1{text-align:center;
+color: aliceblue;
+font-size:40px;}
+
+#myForm2 button{font-size: 20px;
+margin-left:70px}
+
+#Div3{
+    background-color:rgba(56, 55, 55, 0.89);
+    width: 100%;
+    height:150px;
+    margin-left:0px;
+    opacity: 1;
+    align:center;}
+
+#Div3 img{height: 20px;
+width: 20px;
+display: inline;}
+
+#copy{position: absolute;
+margin-top: 100px;
+float: right;}
+
+#last{margin-left: 30px;
+    position: absolute;}
+
+#sp{margin-right: 20px;
+    margin-top: 100px;
+color: aqua;
+float: left;}
+
+#sp:hover{color: white;}
+
+#sp img{height: 30px;
+width: 30px;}
+
+#sp img:hover{filter: brightness(20%);}
+
+/*prohome////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+#welcome p{color:aqua;
+font-size: 50px;}
+
+#myBody2{
+    background-color: rgb(4, 0, 19);}
+
+#sitename{
+    position: absolute; 
+    display: inline;
+        font-size: 40px;
+        color: orange;
+        margin-left: 10px;
+    top: -30px;}
+
+#Div4{background-color:rgb(0, 0, 221);
+height: 80px; 
+position: sticky;
+top: 0px;}
+
+#Div4 a{display: inline-block;
+text-decoration: none;
+color: aqua;}
+
+#divlist a:hover{background-color: rgb(53, 53, 231);}
+
+#home{background-color: rgb(53, 53, 231);}
+
+#Div4 ul{position: absolute;
+    margin: 0px;
+padding: 0px;
+list-style: none;}
+
+#divlist{margin-left: 250px;}
+
+#Div4 li{float: left;
+    width: 130px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 25px;
+margin-top: 20px;}
+
+#divsearch{position: absolute;
+left: 1000px;
+top:30px;}
+
+#list2home{background-color: rgb(0, 0, 221);}
+
+#list2home li{display: none;}    
+
+#list1home li:hover #list2home li{display: block;}
+
+#Div5{height: 300px;}
+
+#Div5 span{color: white;
+    font-size:30px;
+margin-left:50px;} 
+#scro{overflow-x: scroll;
+    display: flex;}
+
+#spiderlevi{display: inline-block;
+margin-left:500px;}
+
+
+#pho1 { margin-right: 10px;
+display: inline;}
+
+#scro{position: relative;
+    margin-left: -200px;}
+
+hr{border: 1px solid blue;}
+
+#vs img{display: inline-block;
+margin: 30px;}
+
+#vss {position: relative;
+    margin-bottom: -50px;}
+
+/*promovies////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+    #Divmov{background-color:rgb(0, 0, 221);
+        height: 80px; 
+        position: sticky;
+        top: 0px;}
+        
+        #Divmov a{display: inline-block;
+        text-decoration: none;
+        color: aqua;}
+        
+        #abc{color: aqua;
+            background: none;
+            border: 1px solid aqua;
+            border-radius: 10px;
+            height: 20px;
+            font-size: 20px;
+            }
+        
+         #movieul p {display: none;}
+
+         #movieul li{list-style-type: none;
+             display: inline;}
+
+        #movies{background-color: rgb(53, 53, 231);}
+        
+        #Divmov ul{position: absolute;
+            margin: 0px;
+        padding: 0px;
+        list-style: none;}
+        
+        #divlist{margin-left: 250px;}
+        
+        #Divmov li{float: left;
+            width: 130px;
+            height: 40px;
+            line-height: 40px;
+            text-align: center;
+            font-size: 25px;
+        margin-top: 20px;}
+        
+        #list2mov{background-color: rgb(0, 0, 221);}
+        
+        #list2mov li{display: none;}    
+        
+        #list1mov li:hover #list2mov li{display: block;}
+
+/*prosong///////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+#Divsong{background-color:rgb(0, 0, 221);
+    height: 80px; 
+    position: sticky;
+    top: 0px;}
+    
+    #Divsong a{display: inline-block;
+    text-decoration: none;
+    color: aqua;}
+    
+    #song{background-color: rgb(53, 53, 231);}
+    
+    #Divsong ul{position: absolute;
+        margin: 0px;
+    padding: 0px;
+    list-style: none;}
+    
+    #divlist{margin-left: 250px;}
+    
+    #Divsong li{float: left;
+        width: 130px;
+        height: 40px;
+        line-height: 40px;
+        text-align: center;
+        font-size: 25px;
+    margin-top: 20px;}
+    
+    #list2song{background-color: rgb(0, 0, 221);}
+    
+    #list2song li{display: none;}    
+    
+    #list1song li:hover #list2song li{display: block;}
+    
+/*prosamv///////////////////////////////////////////////////////////////////////////////////////////////////*/
+   
+        #amvsidelist  {position:fixed;
+        display:absolute;}
+
+        #amvsidelist div{background:rgb(0, 0, 221) ;
+            width: 200px;
+            text-align: center;
+            border-radius: 8px;
+            margin-left: -190px;
+       }
+
+        #amvsidelist a{text-decoration: none;
+        color:aqua;
+    font-size:20px;}
+
+    #amvsidelist div:hover {margin-left: 0px;
+        transition-duration:1.5s;}
+       
+        #Divamv{background-color:rgb(0, 0, 221);
+            height: 80px; 
+            position: sticky;
+            top: 0px;}
+            
+            #Divamv a{display: inline-block;
+            text-decoration: none;
+            color: aqua;}
+            
+            #amv{background-color: rgb(53, 53, 231);}
+            
+            #Divamv ul{position: absolute;
+                margin: 0px;
+            padding: 0px;
+            list-style: none;}
+            
+            #divamv{margin-left: 250px;}
+            
+            #Divamv li{float: left;
+                width: 130px;
+                height: 40px;
+                line-height: 40px;
+                text-align: center;
+                font-size: 25px;
+            margin-top: 20px;}
+            
+            #list2amv{background-color: rgb(0, 0, 221);}
+            
+            #list2amv li{display: none;}    
+            
+            #list1amv li:hover #list2amv li{display: block;}
+
+/*prosimg///////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+#Divimg{background-color:rgb(0, 0, 221);
+    height: 80px; 
+    position: sticky;
+    top: 0px;}
+    
+    #Divimg a{display: inline-block;
+    text-decoration: none;
+    color: aqua;}
+    
+    #imgimg{background-color: rgb(53, 53, 231);}
+    
+    #Divimg ul{position: absolute;
+        margin: 0px;
+    padding: 0px;
+    list-style: none;}
+    
+    #divlist{margin-left: 250px;}
+    
+    #Divimg li{float: left;
+        width: 130px;
+        height: 40px;
+        line-height: 40px;
+        text-align: center;
+        font-size: 25px;
+    margin-top: 20px;}
+    
+    #list2img{background-color: rgb(0, 0, 221);}
+    
+    #list2img li{display: none;}    
+    
+    #list1img li:hover #list2img li{display: block;}
+
+
+
